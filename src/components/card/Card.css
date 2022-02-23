@@ -1,0 +1,30 @@
+.CardContainer {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  padding: 1vh 0px;
+  border-bottom: 1px solid #c9c9c950;
+}
+.UserImageSection {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+}
+.UserData {
+  flex: 0.8;
+}
+.UserDetial {
+  font-weight: 200;
+  line-height: 0.9vh;
+}
+.UserImage {
+  width: 8vw;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.CardName {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4vh;
+}

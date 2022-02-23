@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Card from "../../components/card/Card"
+import "./Home.css"
 
 export default function Home() {
   const [studentData, setstudentData] = useState([])
@@ -14,7 +15,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div>
+    <div className="HomeContainer">
       {studentData.map((student) => (
         <Card student={student} />
       ))}

@@ -1,0 +1,7 @@
+.HomeContainer {
+  background-color: #fff;
+  height: 75vh;
+  width: 60vw;
+  overflow: scroll;
+  border-radius: 1.2%;
+}
