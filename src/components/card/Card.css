@@ -1,7 +1,6 @@
 .CardContainer {
   display: flex;
   align-items: center;
-  height: 20vh;
   padding: 1vh 0px;
   border-bottom: 1px solid #c9c9c950;
 }
@@ -9,17 +8,23 @@
   flex: 0.2;
   display: flex;
   justify-content: center;
+  align-self: flex-start;
+  margin-top: 4vh;
 }
 .UserData {
-  flex: 0.8;
+  flex: 0.7;
 }
 .UserDetial {
   font-weight: 200;
   line-height: 0.9vh;
 }
+.gradeSection {
+  margin-top: 3vh;
+}
 .UserImage {
   width: 8vw;
   aspect-ratio: 1;
+  justify-self: self-start;
   border-radius: 50%;
   border: 1px solid gray;
 }
@@ -27,4 +32,16 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 4vh;
+}
+.HideShowSection {
+  flex: 0.1;
+  align-self: flex-start;
+  outline: none;
+  user-select: none;
+}
+.HideShow {
+  font-size: 7vh;
+  display: inline;
+  cursor: pointer;
+  color: #c9c9c9;
 }

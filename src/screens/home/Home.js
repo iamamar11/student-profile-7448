@@ -43,7 +43,7 @@ export default function Home() {
         onChange={({ target }) => setsearchValue(target.value)}
       />
       {data.map((student) => (
-        <Card student={student} />
+        <Card student={student} showGrade={false} />
       ))}
     </div>
   )
