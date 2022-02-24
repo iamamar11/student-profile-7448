@@ -45,3 +45,24 @@
   cursor: pointer;
   color: #c9c9c9;
 }
+.TagInput {
+  width: 20%;
+  padding: 1.5vh 0vh;
+  border: none;
+  border-bottom: 1px solid #c9c9c980;
+  align-self: center;
+  font-size: 2vh;
+  font-family: "Raleway", sans-serif;
+  outline: none;
+}
+.Span {
+  background-color: #c9c9c9;
+  border-radius: 8%;
+  margin: 0px 3px;
+  padding: 1vh 1vw;
+}
+.TagSection {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+}
